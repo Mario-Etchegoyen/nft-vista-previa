@@ -1,4 +1,5 @@
 .attribution {
+  display: block;
   font-size: 11px;
   text-align: center;
 }
@@ -9,23 +10,22 @@
 
 body {
   margin: 0%;
+  width: 100%;
+  height: 100%;
   background-color: hsl(217, 54%, 11%);
   color: hsl(0, 0%, 100%);
   font-family: Outfit;
-  width: 100%;
-  height: 100%;
+
 }
 
-main {}
-
-.card {
+main {
   vertical-align: center;
   background-color: hsl(216, 50%, 16%);
-  margin: 15% auto;
+  margin: 5% auto 0;
   width: 20%;
-  /* height: 60dvh; */
+  height: max-content;
   border-radius: .75rem;
-  box-shadow: 0px 0px 5dvw 2dvw rgba(0, 0, 0, 0.282);
+  box-shadow: 0px 0px 4dvw 1dvw rgba(0, 0, 0, 0.282);
 }
 
 .equilibrium {
@@ -33,13 +33,61 @@ main {}
   width: 90%;
   height: auto;
   border-radius: .75rem;
-
 }
 
 h1 {
   font-size: 1.3dvw;
   margin: 0% auto;
   width: 90%;
+}
+
+h5 {
+  margin: 5%;
+  width: 90%;
+  color: hsl(215, 51%, 70%);
+  font-weight: lighter;
+  font-size: 1.1dvw;
+}
+
+.parrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1dvw;
+}
+
+
+.logo-equilibrium {
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+}
+
+.tamano-logoEquil {
+  width: 12%;
+  height: 30%;
+  padding-right: 0.3dvw
+}
+
+.logo-reloj {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  font-weight: ligh;
+}
+
+.tamano-logoReloj {
+  width: 17%;
+  height: 30%;
+  padding-right: 0.3dvw
+}
+
+p span {
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+  padding: 0.5dvw;
 }
 
 hr {
@@ -49,11 +97,12 @@ hr {
 }
 
 .author {
+  color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: start;
   align-items: center;
-  font-size: 0.9em;
-  margin: 5% auto;
+  font-size: 1dvw;
+  margin: 5% auto 0;
   padding-bottom: 5%;
   width: 90%;
 }
@@ -62,10 +111,10 @@ hr {
   width: 10%;
   border-radius: 50%;
   border: 1px solid white;
-  margin-right: 5px;
+  margin-right: 3%;
 }
 
-span {
+p span {
   color: hsl(215, 51%, 70%);
-  font-weight: bold;
+
 }
