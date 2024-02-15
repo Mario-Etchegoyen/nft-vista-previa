@@ -159,7 +159,7 @@ p span {
     font-size: 2dvw;
   }
 
-  .attribution {    
+  .attribution {
     font-size: 2dvw;
   }
 }
@@ -184,19 +184,19 @@ p span {
     font-size: 5dvw;
   }
 
-    .logo-equilibrium {
-      width: 30dvw;
-      font-size: 4dvw;
-    }
+  .logo-equilibrium {
+    width: 30dvw;
+    font-size: 4dvw;
+  }
 
   .tamano-logoEquil {
     padding-right: 1.2dvw
   }
 
-    .logo-reloj {
-      width: 30dvw;
-      font-size: 4dvw;
-    }
+  .logo-reloj {
+    width: 30dvw;
+    font-size: 4dvw;
+  }
 
   .tamano-logoReloj {
     padding-right: 1.2dvw
@@ -206,7 +206,7 @@ p span {
     font-size: 4.5dvw;
   }
 
-.attribution {
-  font-size: 3dvw;
-}
+  .attribution {
+    font-size: 3dvw;
+  }
 }
