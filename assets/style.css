@@ -1,5 +1,5 @@
 .attribution {
-  width: 90%;
+  width: 100%;
   font-size: 11px;
   text-align: center;
 }
@@ -9,22 +9,25 @@
 }
 
 body {
-  background-color: hsl(217, 54%, 11%);
-  color: hsl(0, 0%, 100%);
-  font-family: Outfit;
-  width: 100dvw;
-  height: 100dvh;
+
+  margin: 5dvh auto;
   display: flex;
-  /* it works with grid too  */
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100dvw;
+  /* min-width: 300px; */
+  height: 100dvh;
+  /* background-color: hsl(217, 54%, 11%); */
+  color: hsl(0, 0%, 100%);
+  font-family: Outfit;
+
 }
 
 main {
   background-color: hsl(216, 50%, 16%);
   width: 20%;
-  height: 60dvh;
+  height: auto;
   border-radius: .75rem;
   box-shadow: 0px 0px 4dvw 1dvw rgba(0, 0, 0, 0.282);
 }
@@ -49,6 +52,7 @@ p {
   font-weight: lighter;
   font-size: 1.1dvw;
 }
+
 
 .parrafo {
   display: flex;
@@ -112,10 +116,7 @@ hr {
   margin-right: 3%;
 }
 
-p span {
-  color: hsl(215, 51%, 70%);
 
-}
 
 /* ------------------------ 960 px --------------------- */
 @media(max-width: 960px) {
@@ -168,20 +169,26 @@ p span {
 /* ------------------------ 375 px --------------------- */
 @media(max-width: 375px) {
   main {
-    margin-top: 15%;
-    width: 90%;
+    margin: 0dvh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90dvw;
+    height: auto;
   }
 
   h1 {
     font-size: 6dvw;
   }
 
-  h5 {
+  p {
     font-size: 5dvw;
   }
 
   .parrafo {
     font-size: 5dvw;
+    width:90%
   }
 
   .logo-equilibrium {
@@ -190,16 +197,20 @@ p span {
   }
 
   .tamano-logoEquil {
-    padding-right: 1.2dvw
+    padding-right: 1.2dvw;
+    width: 3dvw;
+    height: auto;
   }
 
   .logo-reloj {
     width: 30dvw;
-    font-size: 4dvw;
+    font-size: 5dvw;
   }
 
   .tamano-logoReloj {
-    padding-right: 1.2dvw
+    padding-right: 1.2dvw;
+    width: 4dvw;
+    height: auto;
   }
 
   .author {
